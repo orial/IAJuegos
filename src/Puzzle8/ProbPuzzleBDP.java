@@ -100,7 +100,7 @@ public class ProbPuzzleBDP extends ProbPuzzleH0
             it += 1;
         }
         
-        System.out.println("Entradas en la tabla: " + it);
+        //System.out.println("Entradas en la tabla: " + it);
         
     }
        

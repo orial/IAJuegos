@@ -207,18 +207,53 @@ public class Puzzle extends Estado {
         
         return b.toString();
     }
-    
-//    public String toString () {
-//        String res = "\n";
-//
-//        for (int i = 0; i < tab.length; i++) {
-//            for (int j = 0; j < tab[0].length; j++) {
-//               res = res + tab[i][j] + " ";
-//          }
-//            res = res + "\n";
-//        }
-//        
-//        return res;
-//    }
 
+    public int getDescolocadas() {
+        int h = 0;
+        int aux = 0;
+        for(int i=0;i<nf();i++)
+        {
+            for(int j=0;j<nc();j++)
+            {
+                if(tab[i][j]!=aux && tab[i][j] != 0)
+                {
+                    h++;
+                }
+                aux++;
+            }
+        }
+        return h;
+    }
+    
+    public int getManhattan() {
+        int h = 0;
+        for(int i=0;i<nf();i++)
+        {
+            for(int j=0;j<nc();j++)
+            {
+                if(tab[i][j]!=0)
+                {
+                    h+= getManhattanPieza(tab[i][j], i, j);
+                }
+            }
+        }
+        return h;
+    }
+    
+    private int getManhattanPieza(int num, int fil, int col) {
+        int aux = 0;
+        int [][] sol = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}};
+        
+        for(int i=0;i<nf();i++)
+        {
+            for(int j=0;j<nc();j++)
+            {
+                if(sol[i][j]==num)
+                {
+                    aux = Math.abs(fil-i) + Math.abs(col-j);
+                }
+            }
+        }
+        return aux;
+    }
 }
