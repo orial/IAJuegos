@@ -4,7 +4,7 @@ package Puzzle8;
 /**
  * Write a description of class ProbPuzzleManhattan here.
  * 
- * @author Juan Jose Gomez Morales
+ * @author Lupicinio García Ortiz
  */
 public class ProbPuzzleManhattan extends ProbPuzzleH0
 {

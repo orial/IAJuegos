@@ -122,7 +122,8 @@ public class ProbPuzzleBDP extends ProbPuzzleH0
                 if (p.tab[i][j] < numPiezas){
                     tablero[i][j] = p.tab[i][j];
                 }else {
-                    tablero[i][j] = COMODIN;}
+                    tablero[i][j] = COMODIN;
+                }
             }
         }
         

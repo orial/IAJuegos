@@ -59,7 +59,7 @@ public class Caballo extends Estado {
 		int f = fil;
 		int c = col;
 		
-		System.out.println(this.toString());
+		//System.out.println(this.toString());
 		
 		comprobarPosicion(h, f + 2, c + 1);
 		comprobarPosicion(h, f + 2, c - 1);

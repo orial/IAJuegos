@@ -14,7 +14,7 @@ import java.util.PriorityQueue;
  */
 public abstract class Problema<E extends Estado> { // extends E> {
     public E ini;
-    
+    public int iteraciones;
     
     /**
      * 
@@ -163,15 +163,19 @@ public abstract class Problema<E extends Estado> { // extends E> {
      */
     public List<E> aMono() {
         E estado = this.ini;
+      
         Arbol a = new Arbol();
         PriorityQueue<FE> abiertos = new PriorityQueue<FE>();
         FE fe;
         int g2;
+        iteraciones=0;
         
         a.insertarEnArbol(estado, new Nodo(null,0));
         
         while ((estado != null) && (!this.esFinal(estado))) {
             //List<E> lista = E.hijos();
+        	iteraciones++;
+        	
             for (Estado e2 : estado.hijos()){  //lista) {
                 g2 = ((Nodo)a.nodo(estado)).g() + estado.coste(e2);
                 if (!a.perteneceAlArbol(e2) || g2<((Nodo)a.nodo(e2)).g()) {
@@ -198,5 +202,9 @@ public abstract class Problema<E extends Estado> { // extends E> {
             System.out.println("Coste de la solucion: " + a.nodo(estado).g());
             return solucion;
         }
+    }
+    
+    public int getIteraciones() {
+        return iteraciones;
     }
 }

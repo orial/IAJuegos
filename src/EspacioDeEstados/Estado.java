@@ -29,7 +29,7 @@ public abstract class Estado {
      */
     public int coste(Estado e){
         return 1;
-    }     
+    }    
         
     /**
      * Cadena de caracteres que representa univocamente cada estado.
