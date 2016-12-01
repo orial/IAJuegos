@@ -1,5 +1,7 @@
 package EspacioJuego;
 
+import java.text.DecimalFormat;
+
 import Jugadores.Jugador;
 
 /**
@@ -61,4 +63,28 @@ public class Juego {
         }
         return resultado;
     }
+    
+    public void jugar(int n){
+    	double gan=0,perd=0, emp=0;
+    	int res;
+    	for (int i=0; i<n ;i++){
+    		res = jugarPartida(false);
+    		switch(res){
+    		case 1:
+    			gan++;
+    			break;
+    		case 0:
+    			emp++;
+    			break;
+    		case -1:
+    			perd++;
+    		}
+    	}
+    	DecimalFormat twoDForm = new DecimalFormat("#.00");
+    	
+    	System.out.println("Primer jugador: "+ twoDForm.format((gan)/n*100) + " %");
+    	System.out.println("Segundo jugador: "+ twoDForm.format((perd/n)*100) + " %");
+    	System.out.println("Empates: "+ twoDForm.format((emp/n)*100) + " %");
+    }
+
 }

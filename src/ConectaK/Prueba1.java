@@ -12,19 +12,20 @@ import Jugadores.*;
  */
 public class Prueba1
 {
-    public static void main()
+    public static void main(String[] args)
     {
         ConectaK e = new ConectaK(3,3,3);
         Jugador j1 = new JugadorAleatorio();
         Jugador j2 = new JugadorAleatorio();
         Juego juego1 = new Juego(j1, j2, e);
         
-        verPartida(juego1);
-        
-        Jugador j3 = new JugadorHumanoCK();
-        Juego juego2 = new Juego(j1, j3, e);
-        
-        verPartida(juego2);
+//        verPartida(juego1);
+//        
+//        Jugador j3 = new JugadorHumanoCK();
+//        Juego juego2 = new Juego(j1, j3, e);
+//        
+//        verPartida(juego2);
+        juego1.jugar(200);
     }
     
     public static void pruebaTablero() {
