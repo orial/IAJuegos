@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=ev\ limiteT
+comment0.target=JugadorMinimaxLimitado(Evaluador,\ long)
+comment0.text=\r\n\ Constructor.\r\n\ \r\n\ @param\ ev\ \ \ \ \ \ \ \ Evaluador.\r\n\ @param\ limiteT\ \ \ L\u00EDmite\ de\ tiempo.\r\n
+comment1.params=e
+comment1.target=EspacioJuego.EstadoJuego\ mueve(EspacioJuego.EstadoJuego)
+comment2.params=e\ fmax\ fmin
+comment2.target=EspacioJuego.EstadoJuego\ minimaxLimitado(EspacioJuego.EstadoJuego,\ EspacioJuego.Ficha,\ EspacioJuego.Ficha)
+comment2.text=\r\n\ Realiza\ la\ evaluaci\u00F3n\ MINIMAX\ de\ un\ estado\ dado\ un\ l\u00EDmite\ de\ tiempo.\ Para\ ello\ se\ emplea\r\n\ una\ estrategia\ de\ profundizaci\u00F3n\ progresiva.\ Se\ realizan\ llamadas\ a\ negamaxConAlarma\ con\r\n\ l\u00EDmites\ de\ profundidad\ crecientes.\ Cuando\ se\ alcanza\ el\ l\u00EDmite\ de\ tiempo,\ se\ devuelve\ el\r\n\ resultado\ de\ la\ llamada\ m\u00E1s\ profunda\ que\ se\ pudo\ completar.\r\n\ \r\n\ @param\ e\ \ \ \ \ Estado.\r\n\ @param\ fmax\ \ Ficha\ de\ MAX.\r\n\ @param\ fmin\ \ Ficha\ de\ MIN.\r\n\ @return\ \ \ \ \ \ Mejor\ movimiento.\r\n
+comment3.params=e\ prof\ fmax\ fmin\ alarma\ signo
+comment3.target=VE\ negamaxConAlarma(EspacioJuego.EstadoJuego,\ int,\ EspacioJuego.Ficha,\ EspacioJuego.Ficha,\ Alarma,\ int)
+comment3.text=\r\n\ Realiza\ una\ evaluaci\u00F3n\ MINIMAX\ de\ un\ estado\ dado\ en\ un\ tiempo\ l\u00EDmite.\ Si\ el\ tiempo\ se\ acaba\r\n\ durante\ la\ evaluaci\u00F3n,\ devuelve\ null.\r\n\ \r\n\ \r\n\ @param\ e\ \ \ \ \ \ \ \ \ Estado.\r\n\ @param\ prof\ \ \ \ \ \ Profundidad\ de\ b\u00FAsqueda.\r\n\ @param\ fmax\ \ \ \ \ \ Ficha\ de\ MAX.\r\n\ @param\ fmin\ \ \ \ \ \ Ficha\ de\ MIN.\r\n\ @param\ alarma\ \ \ \ Alarma.\r\n\ @param\ signo\ \ \ \ \ Tomar\u00E1\ inicialmente\ el\ valor\ 1,\ e\ ir\u00E1\ alternando\ de\ signo\ con\ la\ profundidad.\r\n\ @return\ \ \ \ \ \ \ \ \ \ Objeto\ VE\ con\ el\ mejor\ estado\ sucesor\ y\ su\ evaluaci\u00F3n\ minimax,\ o\ null\ si\ se\ agot\u00F3\ el\ tiempo..\r\n
+comment4.params=l
+comment4.target=java.util.List\ ordenar(java.util.List)
+numComments=5

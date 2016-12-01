@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=e
+comment0.target=EspacioJuego.EstadoJuego\ mueve(EspacioJuego.EstadoJuego)
+comment0.text=\r\n\ \r\n\ Se\ supone\ que\ los\ jugadores\ son\ legales,\ en\ el\ sentido\ de\ que\ devolver\u00E1n\r\n\ un\ sucesor\ legal\ del\ estado\ e.\r\n\ \r\n\ @param\ e\ Estado.\r\n\ @return\tEstado\ resultante\ de\ que\ el\ jugador\ mueva\ en\ el\ estado\ e.\r\n
+numComments=1

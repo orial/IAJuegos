@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=ev\ profundidadMaxima
+comment0.target=JugadorMinimax(Evaluador,\ int)
+comment0.text=\r\n\ Constructor.\r\n\ \r\n\ @param\ ev\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Evaluador.\r\n\ @param\ profundidadMaxima\ Profundidad\ m\u00E1xima\ de\ b\u00FAsqueda.\r\n
+comment1.params=e
+comment1.target=EspacioJuego.EstadoJuego\ mueve(EspacioJuego.EstadoJuego)
+comment2.params=e\ prof\ fmax\ fmin\ signo
+comment2.target=VE\ negamax(EspacioJuego.EstadoJuego,\ int,\ EspacioJuego.Ficha,\ EspacioJuego.Ficha,\ int)
+comment2.text=\r\n\ Realiza\ una\ evaluaci\u00F3n\ MINIMAX\ de\ un\ estado\ dado\ a\ una\ profundidad\ dada.\r\n\ El\ c\u00E1lculo\ se\ realiza\ mediante\ una\ funci\u00F3n\ recursiva\ por\ la\ cola\ que\ implementa\r\n\ el\ m\u00E9todo\ de\ c\u00E1lculo\ conocido\ como\ NEGAMAX\:\ en\ cada\ nivel\ se\ calcula\ siempre\ el\r\n\ m\u00E1ximo\ de\ los\ sucesores\ cambiado\ de\ signo,\ pero\ las\ evaluaciones\ se\ van\ cambiando\r\n\ de\ signo\ seg\u00FAn\ la\ profundidad,\ de\ modo\ que\ en\ los\ niveles\ MIN,\ calcular\ el\ m\u00E1ximo\ \r\n\ cambiado\ de\ signo\ de\ las\ evaluaciones\ cambiadas\ de\ signo\ equivale\ a\ calcular\ el\ m\u00EDnimo.\r\n\ \r\n\ @param\ e\ \ \ \ \ Estado\ del\ juego.\r\n\ @param\ prof\ \ Profundiad\ de\ la\ b\u00FAsqueda.\r\n\ @param\ fmax\ \ Ficha\ del\ jugador\ MAX.\r\n\ @param\ fmin\ \ Ficha\ del\ jugador\ MIN.\r\n\ @param\ signo\ Tomar\u00E1\ inicialmente\ el\ valor\ 1,\ e\ ir\u00E1\ alternando\ de\ signo\ con\ la\ profundidad.\r\n\ @return\ \ \ \ \ \ Objeto\ VE\ con\ el\ mejor\ estado\ sucesor\ y\ su\ valoraci\u00F3n\ minimax.\r\n
+comment3.params=l
+comment3.target=java.util.List\ ordenar(java.util.List)
+numComments=4

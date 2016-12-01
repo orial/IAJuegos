@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=v\ e
+comment0.target=VE(double,\ EspacioJuego.EstadoJuego)
+comment1.params=
+comment1.target=double\ v()
+comment1.text=\r\n\ @return\ el\ valor\ asociado\ al\ objeto.\r\n
+comment2.params=
+comment2.target=EspacioJuego.EstadoJuego\ e()
+comment2.text=\r\n\ @return\ el\ estado\ asociado\ al\ objeto.\ \r\n
+numComments=3

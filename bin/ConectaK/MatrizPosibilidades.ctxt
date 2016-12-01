@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=nFilas\ nColumnas\ k
+comment0.target=MatrizPosibilidades(int,\ int,\ int)
+comment0.text=\r\n\ \ Crea\ una\ matriz\ de\ posibilidades\ de\ nFilas\ x\ nColumnas\ con\ las\ posibilidades\r\n\ \ de\ conectar\ k\ fichas.\ Para\ cada\ posici\u00F3n\ de\ la\ matriz,\ las\ posibilidades\ se\r\n\ \ guardan\ en\ una\ lista.\ Las\ posibilidades\ se\ numeran\ a\ partir\ de\ 0.\r\n
+comment1.params=
+comment1.target=int\ crearMatrizPosibilidades()
+comment2.params=
+comment2.target=int\ numPosibilidades()
+comment3.params=
+comment3.target=int\ longGanadora()
+comment4.params=f\ c
+comment4.target=java.util.LinkedList\ posibilidades(int,\ int)
+comment4.text=\r\n\ \ @return\ una\ lista\ de\ n\u00FAmeros,\ correspondientes\ a\ las\ posibilidades\ de\ conectar\ k\ fichas\r\n\ \ en\ las\ que\ participa\ la\ posici\u00F3n\ (f,c).\r\n
+comment5.params=f\ c\ df\ dc\ clave
+comment5.target=boolean\ marcaPosibilidades(int,\ int,\ int,\ int,\ int)
+comment5.text=\r\n\ Si\ puede,\ inserta\ 'clave'\ en\ las\ k\ casillas\ desde\ (f,c)\ en\ la\ direcci\u00F3n\ df,dc.\r\n\ \r\n\ @param\ f\ \ \ \ \ \ \ \ \ Fila.\r\n\ @param\ c\ \ \ \ \ \ \ \ \ Columna.\r\n\ @param\ df\ \ \ \ \ \ \ \ Direcci\u00F3n\ de\ la\ fila.\r\n\ @param\ dc\ \ \ \ \ \ \ \ Direcci\u00F3n\ de\ la\ columna.\r\n\ @param\ clave\ \ \ \ \ Valor\ a\ insertar.\ Un\ n\u00FAmero\ correspondiente\ a\ una\ posibilidad\ de\ conectar\ k\ fichas\ en\ el\ tablero.\r\n\ @return\ \ \ \ \ \ \ \ \ \ Verdadero\ si\ es\ posible\ insertar\ 'clave'\ en\ las\ k\ casillas;\ falso\ en\ otro\ caso.\ \r\n
+comment6.params=f\ c\ df\ dc\ k\ clave
+comment6.target=void\ marcaLinea(int,\ int,\ int,\ int,\ int,\ int)
+comment6.text=\r\n\ Marca\ con\ 'clave'\ k\ posiciones\ de\ la\ matriz\ desde\ (f,c)\ en\ la\ direcci\u00F3n\ df,dc.\r\n\ \r\n\ @param\ f\ \ \ \ \ \ \ \ \ Fila.\r\n\ @param\ c\ \ \ \ \ \ \ \ \ Columna.\r\n\ @param\ df\ \ \ \ \ \ \ \ Direcci\u00F3n\ de\ la\ fila.\r\n\ @param\ dc\ \ \ \ \ \ \ \ Direcci\u00F3n\ de\ la\ columna.\r\n\ @param\ k\ \ \ \ \ \ \ \ \ N\u00FAmero\ de\ posiciones.\r\n\ @param\ clave\ \ \ \ \ Valor\ a\ marcar.\r\n
+comment7.params=f\ c
+comment7.target=boolean\ posValida(int,\ int)
+comment7.text=\r\n\ Comprueba\ si\ la\ posici\u00F3n\ (f,c)\ de\ la\ matriz\ es\ v\u00E1lida.\r\n\ \r\n\ @param\ f\ Fila.\r\n\ @param\ c\ Columna.\r\n\ @return\ \ Verdadero\ si\ la\ posici\u00F3n\ (f,c)\ es\ v\u00E1lida;\ falso\ en\ otro\ caso.\r\n
+numComments=8

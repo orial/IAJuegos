@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=estado\ fmax\ fmin
+comment0.target=double\ evaluacion(EspacioJuego.EstadoJuego,\ EspacioJuego.Ficha,\ EspacioJuego.Ficha)
+comment0.text=\r\n\ \r\n\ @param\ estado\tEstado\ del\ juego.\r\n\ @param\ fmax\t\tFicha\ de\ MAX.\r\n\ @param\ fmin\t\tFicha\ de\ MIN.\t\r\n\ @return\t\t\tEvaluaci\u00F3n\ del\ estado\ suponiendo\ que\ MAX\ juega\ con\ la\ ficha\ fmax\ y\ MIN\ con\ fmin.\r\n
+numComments=1

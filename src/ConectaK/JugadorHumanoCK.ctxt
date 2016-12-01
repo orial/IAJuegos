@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=e
+comment0.target=EspacioJuego.EstadoJuego\ mueve(EspacioJuego.EstadoJuego)
+comment1.params=
+comment1.target=int\ pedirMovimiento()
+comment1.text=\r\n\ Pide\ una\ columna\ sobre\ la\ que\ soltar\ una\ ficha.\r\n\ \r\n\ @return\ Columna.\r\n
+numComments=2

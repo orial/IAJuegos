@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=nFil\ nCol
+comment0.target=TableroCK(int,\ int)
+comment0.text=\r\n\ Constructor\ que\ crea\ un\ tablero\ nFil\ x\ nCol\ con\ las\ casillas\ inicialmente\ vac\u00EDas.\r\n\ \r\n\ @param\ nFil\ N\u00FAmero\ de\ filas\ del\ tablero.\r\n\ @param\ nCol\ N\u00FAmero\ de\ columnas\ del\ tablero.\r\n
+comment1.params=tab
+comment1.target=TableroCK(EspacioJuego.Tablero)
+comment2.params=c\ ficha
+comment2.target=EspacioJuego.Movimiento\ soltarFicha(int,\ EspacioJuego.Ficha)
+comment2.text=\r\n\ Inserta\ la\ ficha\ en\ la\ fila\ adecuada\ al\ soltarla\ por\ la\ columna\ c.\r\n\ Adem\u00E1s\ devuelve\ el\ movimiento\ realizado.\r\n\ \r\n\ @param\ c\ \ \ \ \ Columna.\r\n\ @param\ ficha\ Ficha.\r\n\ \r\n\ @return\ Movimiento\ realizado.\r\n
+comment3.params=c
+comment3.target=boolean\ columnaLibre(int)
+comment3.text=\r\n\ \r\n\ @param\ c\ Columna.\r\n\ @return\ \ Verdadero\ si\ es\ posible\ soltar\ alguna\ ficha\ en\ la\ columna\ c.\r\n
+comment4.params=f\ c\ df\ dc
+comment4.target=int\ conectadas(int,\ int,\ int,\ int)
+comment4.text=\r\n\ \r\n\ @param\ f\ \ \ \ \ Fila.\r\n\ @param\ c\ \ \ \ \ Columna.\r\n\ @param\ df\ \ \ \ Direcci\u00F3n\ fila.\r\n\ @param\ dc\ \ \ \ Direcci\u00F3n\ columna.\r\n\ @return\ \ \ \ \ \ N\u00FAmero\ de\ fichas\ iguales\ conectadas\ con\ (f,c)\ en\ la\ l\u00EDnea\ definida\ por\ la\ direcci\u00F3n\ df,\ dc.\r\n
+comment5.params=f\ c\ df\ dc\ ficha
+comment5.target=int\ contar(int,\ int,\ int,\ int,\ EspacioJuego.Ficha)
+comment6.params=
+comment6.target=void\ ver()
+comment6.text=\r\n\r\n\ Utiliza\ el\ m\u00E9todo\ toString\ heredado\ de\ la\ clase\ padre,\ a\u00F1adiendo\ en\ la\ parte\ inferior\ un\ peque\u00F1o\ \r\n\ indicador\ que\ facilita\ localizar\ visualmente\ la\ columna\r\n\r\n
+numComments=7

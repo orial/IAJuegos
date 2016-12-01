@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=Ficha(char)
+comment0.text=\r\n\ Constructor.\r\n\ \r\n\ @param\ f\tCaracter\ que\ representa\ la\ ficha.\r\n
+comment1.params=
+comment1.target=char\ f()
+comment1.text=\r\n\ Selector.\r\n\ @return\tCaracter\ que\ representa\ la\ ficha.\r\n
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

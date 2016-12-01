@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=f\ c
+comment0.target=Movimiento(int,\ int)
+comment0.text=\r\n\ Constructor.\r\n\ \r\n\ @param\ f\tFila.\r\n\ @param\ c\tColumna.\r\n
+comment1.params=
+comment1.target=int\ f()
+comment1.text=\r\n\ Selector.\r\n\ \r\n\ @return\ Fila.\r\n
+comment2.params=
+comment2.target=int\ c()
+comment2.text=\r\n\ Selector.\r\n\ \r\n\ @return\ Columna.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

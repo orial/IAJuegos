@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=nFilas\ nColumnas\ k
+comment0.target=EvaluadorCK(int,\ int,\ int)
+comment0.text=\r\n\ Constructor.\r\n\ Crea\ la\ matriz\ de\ posibilidades.\r\n\ \r\n\ @param\ nFilas\t\tN\u00FAmero\ de\ filas.\r\n\ @param\ nColumnas\t\tN\u00FAmero\ de\ columnas.\r\n\ @param\ k\t\t\t\tLongitud\ ganadora.\r\n
+comment1.params=estado\ fmax\ fmin
+comment1.target=double\ evaluacion(EspacioJuego.EstadoJuego,\ EspacioJuego.Ficha,\ EspacioJuego.Ficha)
+comment2.params=a
+comment2.target=int\ sumatorioArray(int[])
+comment2.text=\r\n\ \r\n\ @param\ a\ Array.\r\n\ @return\tSuma\ de\ todos\ los\ elementos\ del\ array\ unidimensional\ a.\r\n
+numComments=3

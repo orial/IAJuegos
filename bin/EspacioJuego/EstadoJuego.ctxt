@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.List\ hijos()
+comment0.text=\r\n\ \r\n\ @return\ Lista\ de\ estados\ directamente\ accesibles.\r\n
+comment1.params=
+comment1.target=Ficha\ ganador()
+comment1.text=\r\n\ \r\n\ @return\ Ficha\ del\ jugador\ que\ ha\ ganado,\ o\ null\ si\ nadie\ gan\u00F3.\r\n
+comment2.params=
+comment2.target=boolean\ agotado()
+comment2.text=\r\n\ \r\n\ @return\ Verdadero\ si\ el\ estado\ es\ final\ y\ hay\ empate,\ falso\ en\ otro\ caso.\r\n
+comment3.params=
+comment3.target=boolean\ turno1()
+comment3.text=\r\n\ \r\n\ @return\ Verdadero\ si\ es\ el\ turno\ del\ primer\ jugador,\ falso\ en\ otro\ caso.\r\n
+comment4.params=
+comment4.target=Ficha\ fichaActual()
+comment4.text=\r\n\ \r\n\ @return\ Ficha\ del\ jugador\ al\ que\ le\ toca\ jugar.\r\n
+comment5.params=
+comment5.target=Ficha\ fichaOtro()
+comment5.text=\r\n\ \r\n\ @return\ Ficha\ del\ jugador\ contrario\ al\ que\ le\ toca\ jugar.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ \r\n\ @return\ Descripci\u00F3n\ del\ estado.\ La\ cadena\ debe\ identificar\ un\u00EDvocamente\r\n\ al\ estado.\r\n
+comment7.params=
+comment7.target=void\ ver()
+comment7.text=\r\n\ \r\n\ Muestra\ por\ pantalla\ el\ estado.\r\n\ \r\n
+numComments=8

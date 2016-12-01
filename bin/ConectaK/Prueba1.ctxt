@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=
+comment1.target=void\ pruebaTablero()
+comment10.params=juego
+comment10.target=void\ verPartida(EspacioJuego.Juego)
+comment2.params=fi\ co\ k
+comment2.target=void\ pruebaPosibilidades(int,\ int,\ int)
+comment3.params=
+comment3.target=void\ aleatorio()
+comment4.params=
+comment4.target=void\ aleatorioHumano()
+comment5.params=
+comment5.target=void\ aleatorioEvaluar()
+comment6.params=
+comment6.target=void\ evaluarHumano()
+comment7.params=
+comment7.target=void\ humanoMinimax3()
+comment8.params=
+comment8.target=void\ humanoMinimax9()
+comment9.params=
+comment9.target=void\ pruebaMinimax()
+numComments=11

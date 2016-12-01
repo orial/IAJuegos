@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=j1\ j2\ eIni
+comment0.target=Juego(Jugadores.Jugador,\ Jugadores.Jugador,\ EstadoJuego)
+comment0.text=\r\n\ Constructor.\ Una\ partida\ consta\ de\ dos\ jugadores\ y\ un\ estado\ inicial.\r\n\ \r\n\ @param\ jug1\ \ Jugador\ 1.\r\n\ @param\ jug2\ \ Jugador\ 2.\r\n\ @param\ eIni\ \ \ \ \ Estado\ inicial\ de\ un\ juego.\r\n\ \r\n
+comment1.params=eco
+comment1.target=int\ jugarPartida(boolean)
+comment1.text=\r\n\ Controla\ el\ desarrollo\ de\ la\ partida\ hasta\ que\ haya\ terminado.\r\n\ \r\n\ @param\ eco\ \ \ Permite\ opcionalmente\ mostrar\ por\ pantalla\ el\ desarrollo\ del\ juego.\r\n\ @return\ \ \ \ \ \ 1,\ 0,\ -1,\ seg\u00FAn\ gane\ el\ primer\ jugador,\ haya\ empate,\ o\ gane\ el\ segundo\ jugador,\ respectivamente.\r\n
+comment2.params=e\ eco
+comment2.target=int\ jugarPartida(EstadoJuego,\ boolean)
+numComments=3

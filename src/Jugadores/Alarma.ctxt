@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=tiempo
+comment0.target=Alarma(long)
+comment0.text=\r\n\ Crea\ una\ alarma.\r\n\ \r\n\ @param\ tiempo\ Tiempo.\r\n
+comment1.params=s
+comment1.target=void\ conectar(long)
+comment1.text=\r\n\ La\ alarma\ se\ activar\u00E1\ despu\u00E9s\ de\ s\ segundos\ con\ una\ precisi\u00F3n\ de\ (+\ -)\ 1\ seg.\r\n\ \r\n\ @param\ s\ N\u00FAmero\ de\ segundos.\r\n
+comment2.params=
+comment2.target=boolean\ alarma()
+comment2.text=\r\n\ \u00BFSe\ activ\u00F3\ ya\ la\ alarma?\r\n\ \r\n\ @return\ Verdadero\ si\ se\ activ\u00F3\ ya\ la\ alarma;\ falso\ en\ caso\ contrario.\r\n
+numComments=3

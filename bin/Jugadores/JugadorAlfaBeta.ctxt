@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=ev\ profundidadMaxima
+comment0.target=JugadorAlfaBeta(Evaluador,\ int)
+comment0.text=\r\n\ Constructor.\r\n\ \r\n\ @param\ ev\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Evaluador.\r\n\ @param\ profundidadMaxima\ Profundidad\ m\u00E1xima\ de\ b\u00FAsqueda.\r\n
+comment1.params=e
+comment1.target=EspacioJuego.EstadoJuego\ mueve(EspacioJuego.EstadoJuego)
+comment2.params=e\ prof\ fmax\ fmin\ signo\ alfa\ beta
+comment2.target=VE\ negamaxAB(EspacioJuego.EstadoJuego,\ int,\ EspacioJuego.Ficha,\ EspacioJuego.Ficha,\ int,\ double,\ double)
+comment2.text=\r\n\ \ NEGAMAX\ Alfa-beta\r\n
+comment3.params=l
+comment3.target=java.util.List\ ordenar(java.util.List)
+numComments=4

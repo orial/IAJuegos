@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=ev
+comment0.target=JugadorEvaluar(Evaluador)
+comment1.params=e
+comment1.target=EspacioJuego.EstadoJuego\ mueve(EspacioJuego.EstadoJuego)
+comment1.text=\r\n\ \r\n\ Genera\ todos\ los\ hijos\ del\ estado\ recibido,\ y\ devuelve\ el\ que\ reciba\ una\ mayor\r\n\ evaluaci\u00F3n.\ La\ lista\ de\ hijos\ se\ baraja\ antes\ de\ analizarla\ para\ evitar\ un\ comportamiento\r\n\ determinista,\ es\ decir,\ si\ hay\ varios\ hijos\ con\ la\ evaluaci\u00F3n\ \u00F3ptima,\ distintas\r\n\ llamada\ al\ m\u00E9todo\ pueden\ devolver\ distintos\ hijos\ \u00F3ptimos.\r\n\ \r\n\ @param\ e\ el\ estado\ del\ juego\ a\ partir\ del\ cual\ debe\ elegirse\ el\ movimiento.\r\n\ \r\n\ @return\ el\ estado\ del\ juego\ resultante\ a\ la\ realizaci\u00F3n\ del\ movimiento\ elegido.\r\n
+comment2.params=e\ fmax\ fmin
+comment2.target=double\ evalua(EspacioJuego.EstadoJuego,\ EspacioJuego.Ficha,\ EspacioJuego.Ficha)
+comment2.text=\r\n\ Funci\u00F3n\ de\ evaluaci\u00F3n\ v\u00E1lida\ para\ cualquier\ juego\ que\ implemente\ la\ interfaz\ EstadoJuego.\ \r\n\ Devuelve\ un\ valor\ entre\ Double.NEGATIVE_INFINITY\ y\ Double.POSITIVE_INFINITY.\r\n\ \ \r\n\ @param\ e\t\t\t\tEstado\ del\ juego.\r\n\ @param\ fmax\t\t\tFicha\ de\ MAX.\r\n\ @param\ fmin\t\t\tFicha\ de\ MIN.\r\n\ @param\ evaluador\t\tEvaluador\ heur\u00EDstico.\r\n\ @return\t\t\t\tDouble.POSITIVE_INFINITY\ si\ el\ estado\ es\ final\ y\ ganador\ para\ MAX.\r\n\ \t\t\t\t\t\tDouble.NEGATIVE_INFINITY\ si\ el\ estado\ es\ final\ y\ perdedor\ para\ MAX.\r\n\ \t\t\t\t\t\tEl\ valor\ de\ la\ funci\u00F3n\ heur\u00EDstica\ en\ otro\ caso.\r\n
+comment3.params=l
+comment3.target=java.util.List\ barajar(java.util.List)
+comment3.text=\r\n\ Baraja\ aleatoriamente\ una\ lista\ de\ EstadoJuego.\r\n\ \r\n\ @param\ l\ Lista\ de\ EstadoJuego.\r\n\ @return\tLista\ barajada\ aleatoriamente.\r\n
+numComments=4
